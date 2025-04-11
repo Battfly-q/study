@@ -81,3 +81,14 @@ for x in thislist:
 thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):
   print(thislist[i])
+
+# while循环
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+  # 列表推导法
+  list_1 = ["a","b","c"]
+  [print(x) for x in list_1]
